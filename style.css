@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .fonts {
   font-family: 'Lato', sans-serif;
 }
@@ -136,6 +137,11 @@ h1 {
   padding: 2.5em;
 }
 
+.save-spot {
+  text-decoration: none;
+}
+
+
 .join-now .save-spot {
   background-color: #ec5242;
   padding: 2em 3em;
@@ -187,7 +193,7 @@ h1 {
 }
 
 span {
-  border-bottom: #ff1111 solid 1px;
+  border-bottom: #f11 solid 1px;
   width: 60px;
 }
 
@@ -347,10 +353,6 @@ footer {
 
 .move {
   margin-right: 30px;
-}
-
-.save-spot {
-  text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {
