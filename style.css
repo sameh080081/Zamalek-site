@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.fonts {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: url("./images/main.png");
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.topnav {
+  padding: 1.5em;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  color: #272a31;
+  font-size: 2em;
+  justify-content: space-around;
+  margin: 5px;
+  height: 22px;
+}
+
+.vector {
+  width: 25px;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+}
+
+.intro {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.hello {
+  font-size: 1.5em;
+  color: red;
+  margin: 1px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 1px;
+}
+
+.header-description {
+  padding: 1.5em;
+  border: 3px solid white;
+  color: #272a31;
+  font-size: 1em;
+  text-align: justify;
+  margin: 1px;
+}
+
+.date {
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+  color: #272a31;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 1px;
+}
+
+.address {
+  color: #272a31;
+  font-size: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-bottom: 3em;
+  font-weight: bold;
+  margin: 1px;
+}
+
+.program {
+  background: url("./images/background.png");
+  display: flex;
+  flex-direction: column;
+}
+
+.program-title {
+  color: white;
+  align-self: center;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 1.5em;
+  border-bottom: #ec5242 solid 1px;
+}
+
+.program-cards {
+  margin-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.card {
+  display: flex;
+  padding: 2em 1em;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: rgba(102, 107, 121, 0.2);
+  margin-top: 0.5em;
+}
+
+.card img {
+  max-width: 15%;
+}
+
+.card-title {
+  font-size: 1em;
+  color: #ec5242;
+  font-weight: bold;
+  width: 20%;
+}
+
+.card p {
+  display: flex;
+  width: 50%;
+}
+
+.join-now {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5em;
+}
+
+.save-spot {
+  text-decoration: none;
+}
+
+.join-now .save-spot {
+  background-color: #ec5242;
+  padding: 2em 3em;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.candidates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.candidate h2 {
+  color: #272a31;
+  font-size: 1.5em;
+}
+
+.candidate-card {
+  margin-top: 1em;
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+}
+
+.candidate-card img {
+  width: 30%;
+}
+
+.candidate-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.candidate-name {
+  color: #272a31;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1px;
+  margin-top: 20px;
+}
+
+.candidate-profession {
+  color: #ec5242;
+  font-size: 0.8em;
+  margin: 1px;
+}
+
+span {
+  border-bottom: #f11 solid 1px;
+  width: 60px;
+}
+
+.candidate-description {
+  color: #272a31;
+  font-size: 0.6em;
+  margin: 1px;
+}
+
+.more-candidate {
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 95%;
+  border: #b3b5b9 solid 1px;
+}
+
+.more-candidate > a {
+  text-decoration: none;
+  color: #272a31;
+  margin: 1px;
+}
+
+.about .intro {
+  background: url("./images/main.png");
+  background-size: cover;
+}
+
+.center {
+  text-align: center;
+}
+
+.no-border {
+  border: none;
+}
+
+.about-logo h2 {
+  color: #272a31;
+  font-size: 1.5em;
+}
+
+.about-logo {
+  display: flex;
+  position: static;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.last-election1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 48%;
+  border: solid 1px;
+  background: url("./images/1.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.last-election2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 48%;
+  border: solid 1px;
+  background: url("./images/2.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.grey h2,
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.partners img {
+  margin-top: 1em;
+  max-width: 20%;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  padding: 1em;
+  gap: 2em;
+  justify-content: space-around;
+  background-color: #272a31;
+  font-size: 0.7em;
+  height: 50px;
+}
+
+.navbars {
+  display: none;
+}
+
+.full-program {
+  display: none;
+}
+
+.hide-mobile {
+  display: none;
+}
+
+.elections {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.burger {
+  background-color: #272a31f0;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.burger-menu {
+  list-style: none;
+}
+
+.burger a {
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  color: #fff5e1;
+  margin: 2em 2.5em;
+  text-decoration: none;
+}
+
+#close-menu {
+  float: right;
+  color: #b8751f;
+  font-size: 1.5em;
+}
+
+.white {
+  color: white;
+  margin-right: 10px;
+}
+
+.move {
+  margin-right: 30px;
+}
+
+.footerlogo {
+  width: auto;
+  height: 100%;
+  margin: 1px;
+  padding: 1px;
+}
+
+@media only screen and (min-width: 768px) {
+  .icon {
+    display: none;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .gray {
+    background-color: rgb(206, 206, 206);
+  }
+
+  .black {
+    color: black;
+  }
+
+  .topnav {
+    width: 100%;
+    padding: 1px;
+  }
+
+  .navbars {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .full-program {
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
+
+  .nav1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #272a31;
+    color: white;
+    width: auto;
+    list-style: none;
+    height: 40px;
+    margin: 1px;
+  }
+
+  .nav1-text {
+    color: white;
+    margin-right: 20px;
+  }
+
+  .nav2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    height: 70px;
+  }
+
+  .logo-home {
+    display: flex;
+    width: auto;
+    height: 90%;
+  }
+
+  .nav2 ul {
+    display: flex;
+    gap: 3em;
+    color: #6d6f74;
+    font-size: 1em;
+    font-weight: bold;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .zamalek-fc {
+    color: #6d6f74;
+    font-size: 1em;
+    margin-left: 5em;
+    border: #ec5242 solid 1px;
+    padding: 0.7em 1em;
+    font-weight: bold;
+  }
+
+  .intro {
+    padding: 5em 15em;
+  }
+
+  h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+  }
+
+  .hello {
+    font-size: 2em;
+  }
+
+  .program-cards {
+    flex-direction: row;
+    gap: 0.5em;
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+
+  .card {
+    margin-top: 2em;
+    flex-direction: column;
+    padding: 2em 1em;
+    width: 100%;
+    justify-content: start;
+    gap: 1em;
+  }
+
+  .card img {
+    max-width: 100%;
+  }
+
+  .card-title {
+    font-size: 1em;
+    width: fit-content;
+  }
+
+  .card p {
+    display: block;
+    width: 100%;
+    text-align: center;
+    max-height: 10em;
+  }
+
+  .save-spot {
+    display: none;
+  }
+
+  .hide-mobile {
+    display: flex;
+  }
+
+  .candidate-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 5em 5em 5em;
+  }
+
+  .more-candidate {
+    display: none;
+  }
+
+  .candidate-card {
+    width: 30em;
+  }
+
+  .candidate-description {
+    width: 20em;
+  }
+
+  .versions {
+    margin-top: 2em;
+    flex-direction: row;
+  }
+
+  .last-version {
+    width: 20em;
+    height: 12em;
+  }
+
+  .hide-about {
+    display: none;
+  }
+
+  .change-about {
+    color: white;
+    padding: 3em;
+    font-size: 1em;
+    background-color: #272a31;
+  }
+
+  .footerlogo {
+    width: auto;
+    height: 100%;
+    margin: 1px;
+    padding: 1px;
+  }
+
+  .elections {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+  }
+
+  .last-election1 {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .last-election2 {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ec5242f0;
+  }
+}
