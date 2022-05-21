@@ -6,6 +6,8 @@
 body {
   background: url("./images/main.png");
   background-size: contain;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -231,6 +233,7 @@ span {
 
 .about-logo {
   display: flex;
+  position: static;
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
@@ -267,7 +270,6 @@ h3 {
 
 .partners {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-self: center;
 }
@@ -275,6 +277,7 @@ h3 {
 .partners img {
   margin-top: 1em;
   max-width: 20%;
+  height: auto;
 }
 
 footer {
