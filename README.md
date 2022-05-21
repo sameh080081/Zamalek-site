@@ -10,11 +10,12 @@ Zamalek clup site page
 - Linters
 - Github workflows.
 
-## Live Demo (if available)
+## Live Demo (https://www.loom.com/share/79b21907b8ac4a62a4fd209a7d70b531)
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+use this link to reach project.
+[live site](https://zamalek-official-site.github.io/)
 
 ### Prerequisites
 

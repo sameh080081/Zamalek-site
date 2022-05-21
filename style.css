@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 .fonts {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -64,6 +65,7 @@ h1 {
   padding-left: 1em;
   color: #272a31;
   font-size: 1.3em;
+  font-weight: bold;
   margin: 1px;
 }
 
@@ -73,6 +75,7 @@ h1 {
   padding-right: 1em;
   padding-left: 1em;
   padding-bottom: 3em;
+  font-weight: bold;
   margin: 1px;
 }
 
@@ -131,7 +134,7 @@ h1 {
   padding: 2.5em;
 }
 
-.join-now a {
+.join-now .save-spot {
   background-color: #ec5242;
   padding: 2em 3em;
   color: white;
@@ -182,8 +185,8 @@ h1 {
 }
 
 span {
-  border-bottom: #b3b5b9 solid 1px;
-  width: 20%;
+  border-bottom: #ff1111 solid 1px;
+  width: 60px;
 }
 
 .candidate-description {
@@ -230,15 +233,14 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: red;
   margin-top: 30px;
 }
 
 .last-election1 {
   display: flex;
   flex-direction: column;
-  width: auto;
-  height: auto;
+  width: 90%;
+  height: 50%;
   border: solid 1px;
   background: url("./images/1.jpg");
   background-size: cover;
@@ -248,8 +250,8 @@ span {
 .last-election2 {
   display: flex;
   flex-direction: column;
-  width: auto;
-  height: auto;
+  width: 90%;
+  height: 50%;
   border: solid 1px;
   background: url("./images/2.jpg");
   background-size: cover;
@@ -258,7 +260,7 @@ span {
 
 .grey h2,
 h3 {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 1.5em;
   margin-top: 10px;
 }
@@ -280,8 +282,9 @@ footer {
   padding: 1em;
   gap: 2em;
   justify-content: space-around;
-  color: #272a31;
+  background-color: #272a31;
   font-size: 0.7em;
+  height: 50px;
 }
 
 .navbars {
@@ -298,14 +301,16 @@ footer {
 
 .elections {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
+  height: 500px;
   margin-bottom: 20px;
 }
 
 .burger {
-  background-color: #272a31;
+  background-color: #272a31f0;
   position: fixed;
   height: 100vh;
   width: 100%;
@@ -332,6 +337,19 @@ footer {
   font-size: 1.5em;
 }
 
+.white {
+  color: white;
+  margin-right: 10px;
+}
+
+.move {
+  margin-right: 30px;
+}
+
+.save-spot {
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 768px) {
   .icon {
     display: none;
@@ -339,6 +357,14 @@ footer {
 
   body {
     width: 100%;
+  }
+
+  .gray {
+    background-color: rgb(206, 206, 206);
+  }
+
+  .black {
+    color: black;
   }
 
   .topnav {
@@ -352,11 +378,17 @@ footer {
     flex-direction: column;
   }
 
+  .full-program {
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
+
   .nav1 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #f00;
+    background-color: #272a31;
     color: white;
     width: auto;
     list-style: none;
@@ -497,5 +529,19 @@ footer {
     padding: 3em;
     font-size: 1em;
     background-color: #272a31;
+  }
+
+  .elections {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+  }
+
+  .last-election1 {
+    width: 45%;
+  }
+
+  .last-election2 {
+    width: 45%;
   }
 }
