@@ -85,6 +85,5 @@ candidates.forEach((candidate) => {
     </p>
   </div>
 </div>`;
-
   candidateContainer.appendChild(candidateCard);
 });
