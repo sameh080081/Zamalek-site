@@ -6,16 +6,16 @@ menu.style.display = 'none';
 const candidateContainer = document.querySelector('.candidate-cards');
 
 hamburger.addEventListener('click', () => {
-    menu.style.display = 'block';
+  menu.style.display = 'block';
 });
 
 close.addEventListener('click', () => {
-    menu.style.display = 'none';
+  menu.style.display = 'none';
 });
 
 links.forEach((link) => {
   link.addEventListener('click', () => {
-      menu.style.display = 'none';
+    menu.style.display = 'none';
   });
 });
 

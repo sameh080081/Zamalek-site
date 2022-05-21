@@ -343,7 +343,7 @@ footer {
 
   .topnav {
     width: 100%;
-    padding: 0px;
+    padding: 1px;
   }
 
   .navbars {
@@ -365,8 +365,8 @@ footer {
   }
 
   .nav1-text {
-      color: white;
-      margin-right: 20px;
+    color: white;
+    margin-right: 20px;
   }
 
   .nav2 {
@@ -393,8 +393,8 @@ footer {
   }
 
   a {
-      text-decoration: none;
-      color: black;
+    text-decoration: none;
+    color: black;
   }
 
   .zamalek-fc {
