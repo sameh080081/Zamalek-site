@@ -356,7 +356,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #ff0000;
+    background-color: #f00;
     color: white;
     width: auto;
     list-style: none;
